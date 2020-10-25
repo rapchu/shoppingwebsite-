@@ -1,0 +1,14 @@
+{% extends 'common.html' %}
+{% block content %}
+    {% load static %}
+    {% include 'admin_menu.html' %}
+        <table border="2" align="center">
+        <tr>
+            <th rowspan="4"><img src="{% static 'images/admin-png-7.png' %}" height="300" width="400"></th>
+        </tr>
+        <tr><th class="th_data">Name : Aravind Gujjula</th></tr>
+        <tr><th class="th_data">Email : Aravind.gujjula143@gmail.com</th></tr>
+        <tr><th class="th_data">Contact No : 8143476760</th></tr>
+
+        </table>
+{% endblock %}
